@@ -1,0 +1,41 @@
+body {
+    background-color: #db9257;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+}
+
+#stopwatch {
+    color: #fff;
+    font-size: 2em;
+}
+
+.action_buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;}
+
+#start_stop, #reset {
+    font-size: 1em;
+    padding: 20px 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid rgb(245, 242, 242);
+    border-radius: 6px;
+    cursor: pointer;
+    min-width: 10vw;
+}
